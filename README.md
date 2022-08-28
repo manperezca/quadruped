@@ -1,3 +1,8 @@
 #  quadruped gas detector
- Proyecto de Sistemas Embebidos
+ ## Integrantes:
+ Manuel Alejandro Perez Carvajal
+ Daniel Castellanos Florez
+ Alejandro Fernandez Astaiza
+ Eddy Santiago Delgado Caro
+
 
