@@ -1,2 +1,2 @@
-# automatizacion-prestamo-libros
+#  quadruped gas detector
  Proyecto de Sistemas Embebidos
