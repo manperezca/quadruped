@@ -1,5 +1,5 @@
 #  quadruped gas detector
- ## Integrantes:
+ ### Integrantes:
  * Manuel Alejandro Pérez Carvajal 🧑‍🔧
  * Daniel Castellanos Flérez 🧑‍💻
  * Alejandro Fernández Astaiza 🧑‍💼
@@ -11,4 +11,6 @@ Este es el repositorio del proyecto de la asignatura **Sistemas Embebidos** del 
 
 *Otros requerimientos:* a determinar.
 
-*Alcance:* Empresas y/o labotorios industriales que deban tener sistemas de detección de fugas de gas.
+*Alcance:* empresas y/o labotorios industriales que deban tener sistemas de detección de fugas de gas.
+
+
