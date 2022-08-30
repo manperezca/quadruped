@@ -1,7 +1,7 @@
 #  Quadruped Gas Detector
  ### Integrantes:
  * Manuel Alejandro Pérez Carvajal 🧑‍🔧
- * Daniel Castellanos Flérez 🧑‍💻
+ * Daniel Castellanos Flórez 🧑‍💻
  * Alejandro Fernández Astaiza 🧑‍💼
  * Eddy Santiago Delgado Caro 🧑🔬
 
