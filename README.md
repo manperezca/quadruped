@@ -19,4 +19,4 @@
     ![image1](/images/diagramabloques.png)
   ## SoC
   A continuación, se presenta el SoC planteado.
-    ![image2](/images/soc.png)
+    ![image2](/images/SOC2.jpg)
