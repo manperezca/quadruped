@@ -1,0 +1,368 @@
+The target system is: Generic -  - 
+The host system is: Linux - 5.15.0-52-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc 
+Build flags: -mlongcalls;-Wno-frame-address
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/3.20.0/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ 
+Build flags: -mlongcalls;-Wno-frame-address
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/3.20.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+xtensa-espressif_esp32_zephyr-elf-gcc (Zephyr SDK 0.15.0) 12.1.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8a0f/fast && gmake[4]: Entering directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f8a0f.dir/build.make CMakeFiles/cmTC_f8a0f.dir/build
+gmake[5]: Entering directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc
+Target: xtensa-espressif_esp32_zephyr-elf
+Configured with: /__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-espressif_esp32_zephyr-elf --prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --exec_prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --with-local-prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf --with-headers=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.15.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpc=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-isl=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --enable-lto --enable-target-optspace --disable-nls --disable-multilib --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.1.0 (Zephyr SDK 0.15.0) 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f8a0f.dir/'
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/cc1 -quiet -v -iprefix /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/ /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f8a0f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccyGAQqW.s
+GNU C17 (Zephyr SDK 0.15.0) version 12.1.0 (xtensa-espressif_esp32_zephyr-elf)
+	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include
+End of search list.
+GNU C17 (Zephyr SDK 0.15.0) version 12.1.0 (xtensa-espressif_esp32_zephyr-elf)
+	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e61c0222e4a8e917c683c2ded5a760fc
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f8a0f.dir/'
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj /tmp/ccyGAQqW.s
+GNU assembler version 2.38 (xtensa-espressif_esp32_zephyr-elf) using BFD version (Zephyr SDK 0.15.0) 2.38
+COMPILER_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/
+LIBRARY_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_f8a0f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8a0f.dir/link.txt --verbose=1
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc -mlongcalls -Wno-frame-address  -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj -o cmTC_f8a0f 
+Using built-in specs.
+COLLECT_GCC=/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc
+COLLECT_LTO_WRAPPER=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper
+Target: xtensa-espressif_esp32_zephyr-elf
+Configured with: /__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-espressif_esp32_zephyr-elf --prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --exec_prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --with-local-prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf --with-headers=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.15.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpc=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-isl=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --enable-lto --enable-target-optspace --disable-nls --disable-multilib --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.1.0 (Zephyr SDK 0.15.0) 
+COMPILER_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/
+LIBRARY_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_f8a0f' '-dumpdir' 'cmTC_f8a0f.'
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/collect2 -plugin /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/liblto_plugin.so -plugin-opt=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqAUzpQ.res -o cmTC_f8a0f -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0 -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj
+/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_f8a0f' '-dumpdir' 'cmTC_f8a0f.'
+gmake[5]: Leaving directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp'
+gmake[4]: Leaving directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include]
+  end of search list found
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/sys-include]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include]
+  implicit include dirs: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/sys-include;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-espressif_esp32_zephyr-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8a0f/fast && gmake[4]: Entering directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f8a0f.dir/build.make CMakeFiles/cmTC_f8a0f.dir/build]
+  ignore line: [gmake[5]: Entering directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc]
+  ignore line: [Target: xtensa-espressif_esp32_zephyr-elf]
+  ignore line: [Configured with: /__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-espressif_esp32_zephyr-elf --prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --exec_prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --with-local-prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf --with-headers=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.15.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpc=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-isl=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --enable-lto --enable-target-optspace --disable-nls --disable-multilib --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.1.0 (Zephyr SDK 0.15.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f8a0f.dir/']
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/cc1 -quiet -v -iprefix /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/ /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f8a0f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -Wno-frame-address -version -o /tmp/ccyGAQqW.s]
+  ignore line: [GNU C17 (Zephyr SDK 0.15.0) version 12.1.0 (xtensa-espressif_esp32_zephyr-elf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Zephyr SDK 0.15.0) version 12.1.0 (xtensa-espressif_esp32_zephyr-elf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e61c0222e4a8e917c683c2ded5a760fc]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f8a0f.dir/']
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj /tmp/ccyGAQqW.s]
+  ignore line: [GNU assembler version 2.38 (xtensa-espressif_esp32_zephyr-elf) using BFD version (Zephyr SDK 0.15.0) 2.38]
+  ignore line: [COMPILER_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_f8a0f]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8a0f.dir/link.txt --verbose=1]
+  ignore line: [/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc -mlongcalls -Wno-frame-address  -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj -o cmTC_f8a0f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper]
+  ignore line: [Target: xtensa-espressif_esp32_zephyr-elf]
+  ignore line: [Configured with: /__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-espressif_esp32_zephyr-elf --prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --exec_prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --with-local-prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf --with-headers=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.15.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpc=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-isl=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --enable-lto --enable-target-optspace --disable-nls --disable-multilib --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.1.0 (Zephyr SDK 0.15.0) ]
+  ignore line: [COMPILER_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_f8a0f' '-dumpdir' 'cmTC_f8a0f.']
+  link line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/collect2 -plugin /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/liblto_plugin.so -plugin-opt=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqAUzpQ.res -o cmTC_f8a0f -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0 -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj]
+    arg [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqAUzpQ.res] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f8a0f] ==> ignore
+    arg [-L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0] ==> dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0]
+    arg [-L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc] ==> dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc]
+    arg [-L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib] ==> dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib]
+    arg [CMakeFiles/cmTC_f8a0f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+  collapse library dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0]
+  collapse library dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc]
+  collapse library dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/lib]
+  implicit libs: []
+  implicit dirs: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_93540/fast && gmake[4]: Entering directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_93540.dir/build.make CMakeFiles/cmTC_93540.dir/build
+gmake[5]: Entering directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++
+Target: xtensa-espressif_esp32_zephyr-elf
+Configured with: /__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-espressif_esp32_zephyr-elf --prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --exec_prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --with-local-prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf --with-headers=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.15.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpc=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-isl=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --enable-lto --enable-target-optspace --disable-nls --disable-multilib --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.1.0 (Zephyr SDK 0.15.0) 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_93540.dir/'
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/cc1plus -quiet -v -iprefix /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/ /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_93540.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccjaOHL3.s
+GNU C++17 (Zephyr SDK 0.15.0) version 12.1.0 (xtensa-espressif_esp32_zephyr-elf)
+	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/xtensa-espressif_esp32_zephyr-elf"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/backward"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include"
+ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/xtensa-espressif_esp32_zephyr-elf
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/backward
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include
+End of search list.
+GNU C++17 (Zephyr SDK 0.15.0) version 12.1.0 (xtensa-espressif_esp32_zephyr-elf)
+	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b9f840db384fcecda7d6b8c22e656f12
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_93540.dir/'
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccjaOHL3.s
+GNU assembler version 2.38 (xtensa-espressif_esp32_zephyr-elf) using BFD version (Zephyr SDK 0.15.0) 2.38
+COMPILER_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/
+LIBRARY_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_93540
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93540.dir/link.txt --verbose=1
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ -mlongcalls -Wno-frame-address  -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_93540 
+Using built-in specs.
+COLLECT_GCC=/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++
+COLLECT_LTO_WRAPPER=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper
+Target: xtensa-espressif_esp32_zephyr-elf
+Configured with: /__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-espressif_esp32_zephyr-elf --prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --exec_prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --with-local-prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf --with-headers=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.15.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpc=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-isl=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --enable-lto --enable-target-optspace --disable-nls --disable-multilib --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.1.0 (Zephyr SDK 0.15.0) 
+COMPILER_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/
+LIBRARY_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_93540' '-dumpdir' 'cmTC_93540.'
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/collect2 -plugin /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/liblto_plugin.so -plugin-opt=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczrPeUw.res -o cmTC_93540 -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0 -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj
+/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_93540' '-dumpdir' 'cmTC_93540.'
+gmake[5]: Leaving directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp'
+gmake[4]: Leaving directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/xtensa-espressif_esp32_zephyr-elf]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/backward]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include]
+    add: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include]
+  end of search list found
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/xtensa-espressif_esp32_zephyr-elf] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/xtensa-espressif_esp32_zephyr-elf]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/backward] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/backward]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/sys-include]
+  collapse include dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include]
+  implicit include dirs: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/xtensa-espressif_esp32_zephyr-elf;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/backward;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/sys-include;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-espressif_esp32_zephyr-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_93540/fast && gmake[4]: Entering directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_93540.dir/build.make CMakeFiles/cmTC_93540.dir/build]
+  ignore line: [gmake[5]: Entering directory '/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++]
+  ignore line: [Target: xtensa-espressif_esp32_zephyr-elf]
+  ignore line: [Configured with: /__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-espressif_esp32_zephyr-elf --prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --exec_prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --with-local-prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf --with-headers=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.15.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpc=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-isl=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --enable-lto --enable-target-optspace --disable-nls --disable-multilib --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.1.0 (Zephyr SDK 0.15.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_93540.dir/']
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/cc1plus -quiet -v -iprefix /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/ /usr/local/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_93540.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -Wno-frame-address -version -o /tmp/ccjaOHL3.s]
+  ignore line: [GNU C++17 (Zephyr SDK 0.15.0) version 12.1.0 (xtensa-espressif_esp32_zephyr-elf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/xtensa-espressif_esp32_zephyr-elf"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/../../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/xtensa-espressif_esp32_zephyr-elf]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include/c++/12.1.0/backward]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include-fixed]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/sys-include]
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Zephyr SDK 0.15.0) version 12.1.0 (xtensa-espressif_esp32_zephyr-elf)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b9f840db384fcecda7d6b8c22e656f12]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_93540.dir/']
+  ignore line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/as -v --traditional-format --longcalls -o CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccjaOHL3.s]
+  ignore line: [GNU assembler version 2.38 (xtensa-espressif_esp32_zephyr-elf) using BFD version (Zephyr SDK 0.15.0) 2.38]
+  ignore line: [COMPILER_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_93540]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93540.dir/link.txt --verbose=1]
+  ignore line: [/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ -mlongcalls -Wno-frame-address  -nostartfiles -nodefaultlibs -v CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_93540 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper]
+  ignore line: [Target: xtensa-espressif_esp32_zephyr-elf]
+  ignore line: [Configured with: /__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-espressif_esp32_zephyr-elf --prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --exec_prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf --with-local-prefix=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf --with-headers=/__w/_temp/workspace/output/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='Zephyr SDK 0.15.0' --with-bugurl=https://github.com/zephyrproject-rtos/sdk-ng/issues --enable-__cxa_atexit --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpfr=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-mpc=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --with-isl=/__w/_temp/workspace/build/.build/xtensa-espressif_esp32_zephyr-elf/buildtools --enable-lto --enable-target-optspace --disable-nls --disable-multilib --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --enable-initfini-array]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.1.0 (Zephyr SDK 0.15.0) ]
+  ignore line: [COMPILER_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/:/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostartfiles' '-nodefaultlibs' '-v' '-o' 'cmTC_93540' '-dumpdir' 'cmTC_93540.']
+  link line: [ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/collect2 -plugin /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/liblto_plugin.so -plugin-opt=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczrPeUw.res -o cmTC_93540 -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0 -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc -L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj]
+    arg [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../libexec/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczrPeUw.res] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_93540] ==> ignore
+    arg [-L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0] ==> dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0]
+    arg [-L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc] ==> dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc]
+    arg [-L/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib] ==> dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib]
+    arg [CMakeFiles/cmTC_93540.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+  collapse library dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0]
+  collapse library dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc]
+  collapse library dir [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/lib] ==> [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/lib]
+  implicit libs: []
+  implicit dirs: [/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc;/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf/lib]
+  implicit fwks: []
+
+

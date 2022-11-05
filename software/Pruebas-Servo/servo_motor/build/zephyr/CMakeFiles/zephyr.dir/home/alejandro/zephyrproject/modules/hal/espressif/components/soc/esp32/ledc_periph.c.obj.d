@@ -1,0 +1,20 @@
+zephyr/CMakeFiles/zephyr.dir/home/alejandro/zephyrproject/modules/hal/espressif/components/soc/esp32/ledc_periph.c.obj: \
+ /home/alejandro/zephyrproject/modules/hal/espressif/components/soc/esp32/ledc_periph.c \
+ /home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/include/generated/autoconf.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/zephyr_stdint.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/include/soc/ledc_periph.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/soc_caps.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/include/sdkconfig.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/ledc_reg.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/soc.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/stdint.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_common/include/esp_assert.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/assert.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/sys/__assert.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/stdbool.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/common.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_common/include/esp_bit_defs.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/ledc_struct.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/gpio_sig_map.h

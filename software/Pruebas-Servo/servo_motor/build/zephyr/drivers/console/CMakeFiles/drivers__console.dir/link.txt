@@ -1,0 +1,2 @@
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ar qc libdrivers__console.a CMakeFiles/drivers__console.dir/uart_console.c.obj
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ranlib libdrivers__console.a

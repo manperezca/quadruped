@@ -1,0 +1,2 @@
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ar qc libmain.a CMakeFiles/__idf_main.dir/bootloader_start.c.obj
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ranlib libmain.a

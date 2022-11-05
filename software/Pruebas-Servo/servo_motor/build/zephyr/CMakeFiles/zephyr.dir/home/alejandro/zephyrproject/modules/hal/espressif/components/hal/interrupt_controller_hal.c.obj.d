@@ -1,0 +1,31 @@
+zephyr/CMakeFiles/zephyr.dir/home/alejandro/zephyrproject/modules/hal/espressif/components/hal/interrupt_controller_hal.c.obj: \
+ /home/alejandro/zephyrproject/modules/hal/espressif/components/hal/interrupt_controller_hal.c \
+ /home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/include/generated/autoconf.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/zephyr_stdint.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/hal/include/hal/interrupt_controller_hal.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/stdbool.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/hal/include/hal/interrupt_controller_types.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/soc_caps.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/include/sdkconfig.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/soc.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/stdint.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_common/include/esp_assert.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/assert.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/sys/__assert.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/common.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_common/include/esp_bit_defs.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/hal/esp32/include/hal/interrupt_controller_ll.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/xtensa_api.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/hal.h \
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include/stddef.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/xtensa_context.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/tie.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/corebits.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/system.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/xtruntime-frames.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/xtensa-versions.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/core-matmap.h

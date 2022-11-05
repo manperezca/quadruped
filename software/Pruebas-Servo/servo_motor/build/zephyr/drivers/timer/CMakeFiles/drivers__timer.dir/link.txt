@@ -1,0 +1,2 @@
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ar qc libdrivers__timer.a CMakeFiles/drivers__timer.dir/sys_clock_init.c.obj CMakeFiles/drivers__timer.dir/xtensa_sys_timer.c.obj
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ranlib libdrivers__timer.a

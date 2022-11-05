@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/alejandro/zephyrproject/modules/hal/espressif/components/bootloader/subproject",
+    "build_dir":          "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/bootloader",
+    "config_file":        "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/build/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "release/v4.3-205-ga85cf7409",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/alejandro/zephyrproject/modules/hal/espressif/components/efuse/Kconfig;/home/alejandro/zephyrproject/modules/hal/espressif/components/esp32/Kconfig;/home/alejandro/zephyrproject/modules/hal/espressif/components/esp_common/Kconfig;/home/alejandro/zephyrproject/modules/hal/espressif/components/esp_system/Kconfig;/home/alejandro/zephyrproject/modules/hal/espressif/components/log/Kconfig;/home/alejandro/zephyrproject/modules/hal/espressif/components/newlib/Kconfig;/home/alejandro/zephyrproject/modules/hal/espressif/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/alejandro/zephyrproject/modules/hal/espressif/components/bootloader/Kconfig.projbuild;/home/alejandro/zephyrproject/modules/hal/espressif/components/esptool_py/Kconfig.projbuild;/home/alejandro/zephyrproject/modules/hal/espressif/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/alejandro/zephyrproject/modules/hal/espressif/components/bootloader", "/home/alejandro/zephyrproject/modules/hal/espressif/components/bootloader_support", "/home/alejandro/zephyrproject/modules/hal/espressif/components/efuse", "/home/alejandro/zephyrproject/modules/hal/espressif/components/esp32", "/home/alejandro/zephyrproject/modules/hal/espressif/components/esp_common", "/home/alejandro/zephyrproject/modules/hal/espressif/components/esp_hw_support", "/home/alejandro/zephyrproject/modules/hal/espressif/components/esp_rom", "/home/alejandro/zephyrproject/modules/hal/espressif/components/esp_system", "/home/alejandro/zephyrproject/modules/hal/espressif/components/esptool_py", "/home/alejandro/zephyrproject/modules/hal/espressif/components/hal", "/home/alejandro/zephyrproject/modules/hal/espressif/components/log", "/home/alejandro/zephyrproject/modules/hal/espressif/components/bootloader/subproject/main", "/home/alejandro/zephyrproject/modules/hal/espressif/components/bootloader/subproject/components/micro-ecc", "/home/alejandro/zephyrproject/modules/hal/espressif/components/newlib", "/home/alejandro/zephyrproject/modules/hal/espressif/components/partition_table", "/home/alejandro/zephyrproject/modules/hal/espressif/components/soc", "/home/alejandro/zephyrproject/modules/hal/espressif/components/spi_flash", "/home/alejandro/zephyrproject/modules/hal/espressif/components/xtensa", "" ]
+}

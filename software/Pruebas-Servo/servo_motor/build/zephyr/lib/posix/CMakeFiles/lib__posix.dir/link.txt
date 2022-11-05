@@ -1,0 +1,2 @@
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ar qc liblib__posix.a CMakeFiles/lib__posix.dir/perror.c.obj CMakeFiles/lib__posix.dir/pthread_common.c.obj CMakeFiles/lib__posix.dir/nanosleep.c.obj
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ranlib liblib__posix.a

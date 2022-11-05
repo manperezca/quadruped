@@ -1,0 +1,2 @@
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ar qc app/libapp.a CMakeFiles/app.dir/src/main.c.obj
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ranlib app/libapp.a

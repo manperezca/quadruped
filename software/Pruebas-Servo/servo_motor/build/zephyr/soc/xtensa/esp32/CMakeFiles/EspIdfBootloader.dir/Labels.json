@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader.rule"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader-complete.rule"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-build.rule"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-configure.rule"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-download.rule"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-install.rule"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-patch.rule"
+		},
+		{
+			"file" : "/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EspIdfBootloader"
+		],
+		"name" : "EspIdfBootloader"
+	}
+}

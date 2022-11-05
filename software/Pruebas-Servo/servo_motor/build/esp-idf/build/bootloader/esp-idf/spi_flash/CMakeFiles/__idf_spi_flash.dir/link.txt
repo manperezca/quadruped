@@ -1,0 +1,2 @@
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ar qc libspi_flash.a CMakeFiles/__idf_spi_flash.dir/esp32/spi_flash_rom_patch.c.obj
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ranlib libspi_flash.a

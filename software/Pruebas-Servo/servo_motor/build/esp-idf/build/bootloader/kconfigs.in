@@ -1,0 +1,7 @@
+source "/home/alejandro/zephyrproject/modules/hal/espressif/components/efuse/Kconfig"
+source "/home/alejandro/zephyrproject/modules/hal/espressif/components/esp32/Kconfig"
+source "/home/alejandro/zephyrproject/modules/hal/espressif/components/esp_common/Kconfig"
+source "/home/alejandro/zephyrproject/modules/hal/espressif/components/esp_system/Kconfig"
+source "/home/alejandro/zephyrproject/modules/hal/espressif/components/log/Kconfig"
+source "/home/alejandro/zephyrproject/modules/hal/espressif/components/newlib/Kconfig"
+source "/home/alejandro/zephyrproject/modules/hal/espressif/components/spi_flash/Kconfig"

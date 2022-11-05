@@ -1,0 +1,13 @@
+# Target labels
+ EspPartitionTable
+# Source files and their labels
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspPartitionTable
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspPartitionTable.rule
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspPartitionTable-complete.rule
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-build.rule
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-configure.rule
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-download.rule
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-install.rule
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-mkdir.rule
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-patch.rule
+/home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-update.rule

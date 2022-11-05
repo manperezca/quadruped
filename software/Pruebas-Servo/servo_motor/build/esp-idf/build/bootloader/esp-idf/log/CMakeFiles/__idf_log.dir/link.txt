@@ -1,0 +1,2 @@
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ar qc liblog.a CMakeFiles/__idf_log.dir/log.c.obj CMakeFiles/__idf_log.dir/log_buffers.c.obj CMakeFiles/__idf_log.dir/log_noos.c.obj
+/home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ranlib liblog.a

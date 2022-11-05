@@ -1,0 +1,2 @@
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ar qc libdrivers__serial.a CMakeFiles/drivers__serial.dir/uart_esp32.c.obj
+ccache /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-ranlib libdrivers__serial.a

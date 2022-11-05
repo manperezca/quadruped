@@ -1,0 +1,21 @@
+zephyr/CMakeFiles/zephyr.dir/home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/src/common/dport_access.c.obj: \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/src/common/dport_access.c \
+ /home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/include/generated/autoconf.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/zephyr_stdint.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/include/sdkconfig.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/dport_access.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/stdint.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/esp_attr.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp32/include/esp32/dport_access.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/xtruntime.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/core.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/hal.h \
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include/stddef.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/xtensa-versions.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/tie.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include/xtensa/config/specreg.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/corebits.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/xtruntime-core-state.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/xtruntime-frames.h

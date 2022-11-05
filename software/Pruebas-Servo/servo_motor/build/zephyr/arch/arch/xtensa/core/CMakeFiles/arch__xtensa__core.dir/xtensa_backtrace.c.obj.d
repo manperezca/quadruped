@@ -1,0 +1,26 @@
+zephyr/arch/arch/xtensa/core/CMakeFiles/arch__xtensa__core.dir/xtensa_backtrace.c.obj: \
+ /home/alejandro/zephyrproject/zephyr/arch/xtensa/core/xtensa_backtrace.c \
+ /home/alejandro/projects/zephyros-esp32-sample/servo_motor/build/zephyr/include/generated/autoconf.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/zephyr_stdint.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/xtensa/corebits.h \
+ /home/alejandro/zephyrproject/zephyr/arch/xtensa/core/include/xtensa_backtrace.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/stdbool.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/stdint.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/sys/printk.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/gcc.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/toolchain/common.h \
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include/stddef.h \
+ /home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/include/stdarg.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/inttypes.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/include/soc/soc_memory_layout.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/stdlib.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/limits.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/soc.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_common/include/esp_assert.h \
+ /home/alejandro/zephyrproject/zephyr/lib/libc/minimal/include/assert.h \
+ /home/alejandro/zephyrproject/zephyr/include/zephyr/sys/__assert.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_common/include/esp_bit_defs.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include/soc/soc_caps.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/include/sdkconfig.h \
+ /home/alejandro/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include/esp_attr.h

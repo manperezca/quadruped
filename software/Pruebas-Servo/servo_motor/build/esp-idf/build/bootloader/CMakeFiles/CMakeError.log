@@ -1,0 +1,26 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-gcc 
+Build flags: -mlongcalls;-Wno-frame-address
+Id flags:  
+
+The output was:
+1
+/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find _vectors.o: No existe el archivo o el directorio
+/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find -lhandlers-sim: No existe el archivo o el directorio
+/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find -lhal: No existe el archivo o el directorio
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/alejandro/zephyr-sdk/xtensa-espressif_esp32_zephyr-elf/bin/xtensa-espressif_esp32_zephyr-elf-g++ 
+Build flags: -mlongcalls;-Wno-frame-address
+Id flags:  
+
+The output was:
+1
+/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find _vectors.o: No existe el archivo o el directorio
+/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find -lhandlers-sim: No existe el archivo o el directorio
+/home/alejandro/zephyr-sdk-0.15.0/xtensa-espressif_esp32_zephyr-elf/bin/../lib/gcc/xtensa-espressif_esp32_zephyr-elf/12.1.0/../../../../xtensa-espressif_esp32_zephyr-elf/bin/ld: cannot find -lhal: No existe el archivo o el directorio
+collect2: error: ld returned 1 exit status
+
+
