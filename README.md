@@ -21,7 +21,7 @@
 
   ## Diagrama de bloques
   A continuación, se presenta el diagrama de bloques general sobre el funcionamiento del robot.
-    ![image1](/images/diagramabloques.png)
+    ![image1](/multimedia/diagramabloques.png)
   ## SoC
   A continuación, se presenta el SoC planteado.
-    ![image2](/images/SOC2.jpg)
+    ![image2](/multimedia/SOC2.jpg)
