@@ -11,26 +11,115 @@
 	/* 	pwm-led0 = &pwm_led_blue; */
     /* servo = &servo0_label; */
 	};
-
-	servo0: servo0 {
-		compatible = "pwm-servo"; // Quiere decir que será compatible con el ../dts/bindings/pw-servo.yaml
-		
-    /* A continuación se determina el tiempo en el cual
+	
+	
+	/* 
+	
+	A continuación se determina el tiempo en el cual
     el servo_motor se ubica en una posición entre 0 a 180 grados
     los cuales corresponden a 0.7 mS (min) hasta 2.5 mS (max) de los
-    20 mS que corresponden al perido */
+    20 mS que corresponden al perido 
     
-		pwms = <&ledc0 7 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
-		min-pulse = <PWM_USEC(700)>;
-		max-pulse = <PWM_USEC(2500)>;
+    pwms = <&ledc0 0 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(0)>;
+		max-pulse = <PWM_USEC(0)>;
+    
+    */
+    
+    
+    /////// Codo Izquierdo ///////
+    
+    // "pwm-servo"; Quiere decir que será compatible con el ../dts/bindings/pw-servo.yaml
+
+	servo0: servo0 {
+		compatible = "pwm-servo"; 
+		
+		pwms = <&ledc0 0 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(1600)>;
+		max-pulse = <PWM_USEC(1650)>;
 	};
 
+
+
+    /////// Hombro izquierdo ///////
+    
+    
 	servo1: servo1 {
 		compatible = "pwm-servo";
 		
-		pwms = <&ledc0 0 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
-		min-pulse = <PWM_USEC(700)>;
-		max-pulse = <PWM_USEC(2500)>;
+		pwms = <&ledc0 1 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(1800)>;
+		max-pulse = <PWM_USEC(2300)>;
+	};
+	
+	
+	
+	
+	servo2: servo2 {
+		compatible = "pwm-servo";
+		
+		pwms = <&ledc0 2 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(0)>;
+		max-pulse = <PWM_USEC(0)>;
+	};
+
+	servo3: servo3 {
+		compatible = "pwm-servo";
+		
+		pwms = <&ledc0 3 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(0)>;
+		max-pulse = <PWM_USEC(0)>;
+	};
+	
+
+	servo4: servo4 {
+		compatible = "pwm-servo";
+		
+		pwms = <&ledc0 4 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(0)>;
+		max-pulse = <PWM_USEC(0)>;
+	};
+	
+	servo5: servo5 {
+		compatible = "pwm-servo";
+		
+		pwms = <&ledc0 5 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(0)>;
+		max-pulse = <PWM_USEC(0)>;
+	};
+	
+	
+	
+	/////// Codo Izquierdo ///////
+	
+	servo6: servo6 {
+		compatible = "pwm-servo";
+		
+		pwms = <&ledc0 6 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(900)>;
+		max-pulse = <PWM_USEC(1300)>;
+	};
+	
+	
+	servo7: servo7{
+		compatible = "pwm-servo";
+		
+		pwms = <&ledc0 7 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(1600)>;
+		max-pulse = <PWM_USEC(1650)>;
+	};
+	
+	
+	
+	
+	
+	
+	servo8: servo8 {
+		compatible = "pwm-servo";
+		
+		pwms = <&ledc0 8 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+		min-pulse = <PWM_USEC(0)>;
+		max-pulse = <PWM_USEC(0)>;
 	};
 
   /* ENLISTAR AQUÍ LOS DEMÁS NODOS QUE SE REQUIERAN PARA LOS DEMÁS CANALES DE SERVOMOTORES */
