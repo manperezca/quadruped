@@ -25,3 +25,16 @@
   ## SoC
   A continuación, se presenta el SoC planteado.
     ![image2](/multimedia/Imagenes/introduccion/SOC2.jpg)
+
+  ## Módulos
+  Los módulos que fueron utilizados en la realización de este proyecto son:
+  * ESP32 - WROOM 
+  * Servomotores MG90S
+  * INA219
+  * MPU9250 
+  * WS2812B
+  * FT232RL
+  * Mini360
+  * Baterías 18650
+
+  Para más información, consultar en la página 2 de la [Wiki](https://github.com/manperezca/quadruped-gas-detector/wiki/2.-M%C3%B3dulos)
