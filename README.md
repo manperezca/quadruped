@@ -37,4 +37,24 @@
   * Mini360
   * Baterías 18650
 
-  Para más información, consultar en la página 2 de la [Wiki](https://github.com/manperezca/quadruped-gas-detector/wiki/2.-M%C3%B3dulos)
+  *Para más información, consultar en la [Wiki](https://github.com/manperezca/quadruped-gas-detector/wiki/2.-M%C3%B3dulos).*
+
+  ## Esquema general
+  En la realización del esquema del circuito se utiliza el software ***Kicad***, el cual también se usa para el ruteo de las pistas y ordenamiento en la placa debido a su fácil manejo.
+  ![image10](https://github.com/manperezca/quadruped-gas-detector/blob/main/multimedia/Imagenes/esquemas/Esquema%20general.png)
+
+  En principio se tiene un esquema general que cuenta con 5 etapas.
+  *Para más información, consultar en la [Wiki](https://github.com/manperezca/quadruped-gas-detector/wiki/3.-Dise%C3%B1o-PCB#dise%C3%B1o-del-esquema).*
+
+  ## Ruteo PCB
+  Se rutea el circuito tomando en cuenta los diferentes tamaños de pistas, y así finalmente implementar la tierra, la cual ocupa la mayor cantidad de espacio posible debido que se requiere disminuir la impedancia producida lo máximo posible.
+
+  ![image19](https://github.com/manperezca/quadruped-gas-detector/blob/main/multimedia/Imagenes/pcb/placa%203d.png)
+
+  ## PCB Física
+  Con los diseños requeridos completados, se pide la placa a la empresa china [JLCPCB](https://jlcpcb.com/), la cual llegó en aproximadamente 1 semana.
+
+  ![image21](https://github.com/manperezca/quadruped-gas-detector/blob/main/multimedia/Imagenes/pcb/PCB%20delantera.jpg)
+
+  *Para más información con respecto al proceso de ruteo y fabricación de la placa, consultar en la [Wiki](https://github.com/manperezca/quadruped-gas-detector/wiki/3.-Dise%C3%B1o-PCB#ruteo-y-dise%C3%B1o-de-pcb).*
+
