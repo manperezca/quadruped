@@ -49,7 +49,7 @@
   ## Ruteo PCB
   Se rutea el circuito tomando en cuenta los diferentes tamaños de pistas, y así finalmente implementar la tierra, la cual ocupa la mayor cantidad de espacio posible debido que se requiere disminuir la impedancia producida lo máximo posible.
 
-  ![image19](https://github.com/manperezca/quadruped-gas-detector/blob/main/multimedia/Imagenes/pcb/placa%203d.png)
+  ![image17](https://github.com/manperezca/quadruped-gas-detector/blob/main/multimedia/Imagenes/pcb/ruteo%20capa%20superior.png)
 
   ## PCB Física
   Con los diseños requeridos completados, se pide la placa a la empresa china [JLCPCB](https://jlcpcb.com/), la cual llegó en aproximadamente 1 semana.
