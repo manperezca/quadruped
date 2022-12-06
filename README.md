@@ -58,3 +58,36 @@
 
   *Para más información con respecto al proceso de ruteo y fabricación de la placa, consultar en la [Wiki](https://github.com/manperezca/quadruped-gas-detector/wiki/3.-Dise%C3%B1o-PCB#ruteo-y-dise%C3%B1o-de-pcb).*
 
+  ## Montaje
+  Con las piezas diseñadas e impresas en 3D, se realiza el montaje de los servomotores en el cuerpo del robot.
+
+  ![comps](https://github.com/manperezca/quadruped-gas-detector/blob/main/multimedia/Imagenes/montaje/completo%20superior.jpg)
+
+  *Para más información con respecto al proceso de ruteo y fabricación de la placa, consultar en la [Wiki](https://github.com/manperezca/quadruped/wiki/5.-Montaje#montaje).*
+
+  ## Pruebas Código
+  En primera instancia se realizan pruebas en una tarjeta ESP32 de desarrollo, para comprobar que los servomotores funcionan, además de una buena implementación en el sistema operativo, que en este caso se utiliza `Zephyr.os`.
+
+  ![prueba3](https://github.com/manperezca/quadruped-gas-detector/blob/main/multimedia/Pruebas/prueba3.gif)
+
+  En dicha prueba se mueven dos servomotores de manera simultánea.
+
+  *Para más información con respecto al proceso de ruteo y fabricación de la placa, consultar en la [Wiki](https://github.com/manperezca/quadruped/wiki/6.-Pruebas-preliminares#dos-servos-con-movimiento-suavizado).*
+
+  ## Pruebas Placa Diseñada
+  Luego de la resolución de una serie de problemas y contratiempos, se cambian los componentes de la placa y se envía el valor de ***PWM*** por una tarjeta de desarrollo. 
+
+  ![pruebaf](https://github.com/manperezca/quadruped/blob/main/multimedia/Pruebas/pruebafinal.gif)
+
+  En este prueba se mantiene la alimentación de la tarjeta de desarrollo con una fuente externa, y se logran mover cuatro de los servomotores.
+
+  ## Finalización
+  Finalmente se alimenta la tarjeta de desarrollo directamente con la placa diseñada. Esto permite que el robot cuadrúpedo pueda moverse por si mismo sin la necesidad de un cable externo.
+
+  Proyecto completo
+
+  ![diago](https://github.com/manperezca/quadruped/blob/main/multimedia/Imagenes/finalizacion/isometrica.png)
+
+  Movimiento
+
+  ![mont](https://github.com/manperezca/quadruped/blob/main/multimedia/Pruebas/movimiento-completo.gif)
